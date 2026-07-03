@@ -9,7 +9,7 @@ Este projeto foi desenvolvido seguindo estritamente o briefing de identidade vis
 ## 🌐 Demonstração Online
 
 O projeto está hospedado e pronto para ser testado! 
-👉 <a href="https://henriquelins26.github.io/01-techmind-auth-gateway/" target="_blank" rel="noopener noreferrer">Clique aqui para acessar o site da TechMind Academy</a>
+👉 <a href="https://henriquelins26.github.io/techmind-auth-gateway/" target="_blank" rel="noopener noreferrer">Clique aqui para acessar o site da TechMind Academy</a>
 
 ## 🎨 Identidade Visual e Diretrizes
 
