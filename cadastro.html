@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TechMind Academy - Cadastro</title>
+</head>
+<body>
+    
+
+    <main class="login-container">
+        <section class="login-imagem"></section>
+
+        <section class="login-form">
+            <div class="topo">
+                <h1>Cadastre-se</h1>
+                <p>Seja bem-vindo! Crie sua conta e comece a aprender.</p>
+            </div>
+
+            <form action="#" method="post" autocomplete="on">
+                <div class="campo">
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" placeholder="Nome completo" maxlength="40" required>
+                </div>
+
+                <div class="campo">
+                    <label for="ilogin">E-mail</label>
+                    <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" maxlength="50" required>
+                </div>
+
+                <div class="campo">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" minlength="6" maxlength="8" required>
+                </div>
+
+                <div class="campo"><label for="isenhaconf">Confirme a senha</label>
+                    <input type="password" name="senha" id="isenhaconf" placeholder="Sua senha" autocomplete="current-password" minlength="6" maxlength="8" required></div>
+
+                <div class="campo-checkbox">
+                    <input type="checkbox" name="esconf" id="iconf"><label for="iconf">Aceito os Termos de Uso e Política de Privacidade </label>
+                </div>
+
+                <input type="submit" value="Cadastrar" class="botao-enviar">
+            </form>
+            <button class="botao-criar"><a href="index.html">Já tenho conta</a></button>
+
+            <div class="login-social">
+            <h2>Ou cadastre-se com</h2>
+            <ul>
+                <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/32/300/300221.png" alt="">Google</a></li>
+                <li><a href="#"><img src="img/linkedin.png" alt="">LinkedIn</a></li>
+            </ul>
+        </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="assinatura">
+        <p>TechMind Academy &copy; 2026 | Desenvolvido por <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank">Henrique Lins</a></p>
+    </footer>
+</body>
+</html>

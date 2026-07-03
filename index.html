@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TechMind Academy - Login</title>
+</head>
+<body>
+    
+
+    <main class="login-container">
+        <section class="login-imagem"></section>
+
+        <section class="login-form">
+            <div class="topo">
+                <h1>TechMind Academy</h1>
+                <p>Bem-vindo de volta! Por favor, insira seus dados.</p>
+            </div>
+
+            <form action="#" method="post" autocomplete="on">
+                <div class="campo">
+                    <label for="ilogin">E-mail</label>
+                    <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" maxlength="50" required>
+                </div>
+
+                <div class="campo">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" minlength="6" maxlength="8" required>
+                </div>
+
+                <a href="recuperar.html" class="esqueci">Esqueci minha senha</a>
+                <input type="submit" value="Entrar" class="botao-enviar">
+            </form>
+            <button class="botao-criar"><a href="cadastro.html">Criar conta</a></button>
+
+            <div class="login-social">
+            <h2>Ou entre com</h2>
+            <ul>
+                <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/32/300/300221.png" alt="">Google</a></li>
+                <li><a href="#"><img src="img/linkedin.png" alt="">LinkedIn</a></li>
+            </ul>
+        </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="assinatura">
+        <p>TechMind Academy &copy; 2026 | Desenvolvido por <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank">Henrique Lins</a></p>
+    </footer>
+</body>
+</html>

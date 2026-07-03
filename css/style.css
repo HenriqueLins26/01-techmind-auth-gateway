@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    --cor1: #F5F5F5;
+    --cor2: #1E90FF;
+    --cor3: #FF6F00;
+
+    --fonttitulo: 'Poppins';
+    --fonttexto: 'Roboto';
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonttexto);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+h1, h2{
+    font-family: var(--fonttitulo);
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    font-size: 400;
+}
+
+.login-container{
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.40);
+    display: flex;
+    overflow: hidden;
+    width: 65vw;
+    min-width: 60vh;
+}
+
+.login-form{
+    background-color: #fff;
+    flex: 1;
+    padding: 40px;
+    border-left: 2px solid #ceced0bb;
+}
+
+.topo {
+    margin-bottom: 50px;
+}
+
+.campo{
+    margin: 15px;
+}
+
+.campo label{
+    width: 130px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.campo input{
+    padding-left: 5px;
+    border: 2px solid #cccccc;
+    height: 25px;
+    width: 250px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.campo input:focus{
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid var(--cor2);
+    box-shadow: 2px 2px 5px rgba(30,144,255,0.4);
+}
+
+.botao-enviar{
+    margin: 15px 0px 30px 0px;
+    background-color: var(--cor2);
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.30);
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.botao-enviar:hover{
+    background-color: #1877CC;
+    box-shadow: none;
+}
+
+.esqueci{
+    font-size: 16px;
+    color: #000;
+    margin-right: 20px;
+}
+
+.esqueci:hover{
+    text-decoration: none;
+}
+
+.botao-criar{
+    background-color: var(--cor3);
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.30);
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.botao-criar:hover{
+    background-color: #E65C00;
+    box-shadow: none;
+}
+
+.botao-criar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.campo-checkbox {
+    font-size: 14px;
+}
+
+.campo-checkbox input{
+    margin-right: 5px;
+}
+
+.campo-checkbox input[type="checkbox"] {
+    accent-color: var(--cor2);
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.login-imagem{
+    background-image: url('../img/fundo-equerdo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+
+.login-social ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login-social li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.login-social a{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.login-social img {
+    width: 30px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.assinatura{
+    border-top: 2px solid rgb(170, 169, 169);
+    background-color: #777777;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.assinatura a{
+    color: #fff;
+}
