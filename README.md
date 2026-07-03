@@ -9,7 +9,7 @@ Este projeto foi desenvolvido seguindo estritamente o briefing de identidade vis
 ## 🌐 Demonstração Online
 
 O projeto está hospedado e pronto para ser testado! 
-👉 <a href=" https://henriquelins26.github.io/01-techmind-auth-gateway/" target="_blank" rel="noopener noreferrer">Clique aqui para acessar o site da TechMind Academy</a>
+👉 <a href="https://henriquelins26.github.io/01-techmind-auth-gateway/" target="_blank" rel="noopener noreferrer">Clique aqui para acessar o site da TechMind Academy</a>
 
 ## 🎨 Identidade Visual e Diretrizes
 
@@ -41,9 +41,9 @@ A interface foi projetada milimetricamente para se comportar de forma fluida e i
 
 Gostou do resultado desse projeto ou quer conversar sobre soluções em desenvolvimento front-end? Vamos nos conectar!
 
-* **LinkedIn:** <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank" rel="noopener noreferrer">Seu Nome no LinkedIn</a>
-* **GitHub:** <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Seu perfil no GitHub</a>
+* **LinkedIn:** <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank" rel="noopener noreferrer">Henriqu Lins</a>
+* **GitHub:** <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Henrique Lins</a>
 
 ## ✒️ Autor
 
-* **Seu Nome** - *Desenvolvimento Completo* - <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Meu Perfil no GitHub</a>
+* **Seu Nome** - *Henrique Lins* - <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Meu Perfil no GitHub</a>
