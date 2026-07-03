@@ -41,8 +41,8 @@ A interface foi projetada milimetricamente para se comportar de forma fluida e i
 
 Gostou do resultado desse projeto ou quer conversar sobre soluções em desenvolvimento front-end? Vamos nos conectar!
 
-* **LinkedIn:** <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank" rel="noopener noreferrer">Henriqu Lins</a>
-* **GitHub:** <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Henrique Lins</a>
+* **LinkedIn:** <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank" rel="noopener noreferrer">Meu Perfil no LinkedIn</a>
+* **GitHub:** <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Meu Perfil no GitHub</a>
 
 ## ✒️ Autor
 
