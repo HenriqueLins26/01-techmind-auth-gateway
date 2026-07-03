@@ -46,4 +46,4 @@ Gostou do resultado desse projeto ou quer conversar sobre soluções em desenvol
 
 ## ✒️ Autor
 
-* **Seu Nome** - *Henrique Lins* - <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Meu Perfil no GitHub</a>
+* **Henrique Lins** - *Desenvolvimento Completo* - <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Meu Perfil no GitHub</a>
