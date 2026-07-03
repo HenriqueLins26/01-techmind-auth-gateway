@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>TechMind Academy</title>
 </head>
 <body>
-    <a href="index.html">←</a>
-    <a href="cadastro.html">→</a>
-    
+    <main class="login-container">
+        <section class="login-imagem"></section>
+
+        <section class="login-form">
+            <div class="topo">
+                <h1>Recuperar Senha</h1>
+                <p>Insira o seu e-mail cadastrado para receber as instruções de recuperação.</p>
+            </div>
+
+            <form action="#" method="post" autocomplete="on">
+                <div class="campo">
+                    <label for="irecuperar-email">E-mail</label>
+                    <input type="email" name="recuperar-email" id="irecuperar-email" placeholder="Seu e-mail cadastrado" required>
+                </div>
+
+                <input type="submit" value="Enviar Link" class="botao-enviar">
+            </form>
+
+            <button class="botao-criar"><a href="index.html">Voltar para o Login</a></button>
+        </section>
+    </main>
+    <footer class="assinatura">
+        <p>TechMind Academy &copy; 2026 | Desenvolvido por <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank">Henrique Lins</a></p>
+    </footer>
 </body>
 </html>
